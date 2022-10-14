@@ -10,7 +10,7 @@ createServer({
 
   seeds(server) {
     server.db.loadData({
-      transactions: [
+      transaction: [
         {
           id: 1,
           title: "Frelance",
